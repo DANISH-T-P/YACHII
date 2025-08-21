@@ -11,13 +11,13 @@ const ImageSlider = () => {
     () => [
       { 
         url: "/images/banner_12.jpg", 
-        title: "YChat", 
+        // title: "YChat", 
         description: "Nurturing relationships by bringing friends and family closer through shared virtual experiences",
         overlayImage: "/images/YChat_logo.png"
       },
       { 
         url: "/images/banner_123.jpeg", 
-        title: "YWork", 
+        // title: "YWork", 
         description: "Transforming the gig economy for millions—one trusted job at a time",
         overlayImage: "/images/YWork_logo.png"
       }
