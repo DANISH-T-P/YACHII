@@ -1,0 +1,88 @@
+.career-section {
+  width: 100%;
+  margin: auto;
+  padding: 3rem 1rem;
+  font-family: "Inter", sans-serif;
+}
+
+.career-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.career-header h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #0a0a0a;
+}
+
+.career-header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.career-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.career-card h2 {
+  font-size: 1.8rem;
+  color: #0077ff;
+  margin-bottom: 0.3rem;
+}
+
+.career-card h4 {
+  color: #777;
+  font-weight: normal;
+  margin-bottom: 1.5rem;
+}
+
+.career-details {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+
+.career-details li {
+  padding: 0.7rem 0;
+  border-bottom: 1px solid #eee;
+  font-size: 1rem;
+}
+
+.career-details li strong {
+  color: #000;
+}
+
+.career-apply h5 {
+  color: #28a745;
+  margin-bottom: 0.7rem;
+}
+
+.career-apply a {
+  color: #0077ff;
+  text-decoration: none;
+}
+
+.career-apply a:hover {
+  text-decoration: underline;
+}
+
+.career-apply ol {
+  padding-left: 1.2rem;
+  color: #555;
+  font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .career-card {
+    padding: 1.5rem;
+  }
+
+  .career-header h1 {
+    font-size: 2rem;
+  }
+}

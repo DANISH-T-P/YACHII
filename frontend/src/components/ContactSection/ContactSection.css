@@ -1,0 +1,141 @@
+/* Section Styling */
+.contact.section {
+  padding: 4rem 1rem;
+  background-color: #f8f9fa;
+}
+
+/* Container Fix */
+.container {
+  max-width: 100%;        /* keeps inside site width */
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+/* Section Title */
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-title h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.section-title .subtitle {
+  color: #6c757d;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+/* Layout */
+.contact-row {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Left Info Section */
+.contact-info {
+  flex: 1 1 0;              /* flexible and shrinkable */
+  min-width: 280px;
+  max-width: 100%;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.info-item div {
+  flex: 1;
+}
+
+.icon {
+  font-size: 1.8rem;
+  color: #007bff;
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.info-item h3 {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.info-item p {
+  font-size: 1.2rem;
+  color: #2b2b2b;
+  margin: 0.2rem 0 0;
+}
+
+.email-link {
+  color: #2b2b2b;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+/* Right Contact Form */
+.contact-form-wrapper {
+  flex: 1.5 1 0;            /* slightly wider than info */
+  min-width: 280px;
+  max-width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .contact-row {
+    flex-direction: column;
+  }
+  .contact-info,
+  .contact-form-wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-title h2 {
+    font-size: 1.8rem;
+  }
+  .section-title .subtitle {
+    font-size: 0.95rem;
+  }
+  .icon {
+    font-size: 1.5rem;
+  }
+  .contact-info,
+  .contact-form-wrapper {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title h2 {
+    font-size: 1.6rem;
+  }
+  .section-title .subtitle {
+    font-size: 0.9rem;
+  }
+}

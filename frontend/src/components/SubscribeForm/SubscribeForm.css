@@ -1,0 +1,120 @@
+.subscribe-section {
+  /* background: linear-gradient(135deg, #8400ff, #8400ff); */
+  background: #8400ff;
+  padding: 4rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  text-align: center;
+  color: white;
+  max-width: 1200px;
+  width: 100%;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.subscribe-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.subscribe-subtitle {
+  font-size: 1rem;
+  opacity: 0.9;
+  margin-bottom: 1.5rem;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.subscribe-input {
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  color: #000000;
+  background: white;
+  width: 100%;
+}
+
+.subscribe-input:focus {
+  background-color: white;
+  background: white;
+  box-shadow: white;
+  /* box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.4); */
+}
+
+.subscribe-button {
+  padding: 0.8rem 1rem;
+  border-radius: 12px;
+  border: none;
+  background: #000000;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscribe-button:hover {
+  background: #0891b2;
+}
+
+.subscribe-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.loader {
+  width: 18px;
+  height: 18px;
+  border: 3px solid white;
+  border-top: 3px solid transparent;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.subscribe-alert {
+  margin-top: 1rem;
+  padding: 0.8rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.subscribe-alert-success {
+  background: rgba(34, 197, 94, 0.2);
+  color: #22c55e;
+}
+
+.subscribe-alert-error {
+  background: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+}
+
+/* RESPONSIVE DESIGN */
+@media (min-width: 600px) {
+  .subscribe-form {
+    flex-direction: row;
+  }
+
+  .subscribe-input {
+    flex: 1;
+  }
+}

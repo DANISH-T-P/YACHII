@@ -1,0 +1,49 @@
+.career-section {
+  background-color: #fff;
+  padding: 3rem 1rem;
+}
+
+.career-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.career-section p.text-muted {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.career-image {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+/* Right side details */
+.career-details {
+  padding: 1rem;
+}
+
+.sub-role {
+  padding-left: 2rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+  .career-details {
+    margin-top: 2rem;
+  }
+  .sub-role {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .career-section h2 {
+    font-size: 1.5rem;
+  }
+  .career-section p.text-muted {
+    font-size: 0.9rem;
+  }
+}
